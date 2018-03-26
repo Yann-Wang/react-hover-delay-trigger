@@ -1,6 +1,6 @@
 {
   "name": "react-hover-delay-trigger",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "react-hover-delay-trigger is a component of which the children component will delay to trigger callback when the hover action happens.",
   "keywords": [
     "hover",

@@ -27,8 +27,6 @@ export default class HoverDelayTrigger extends React.Component {
     return (
       <div
         className={this.props.className}
-        onHoverChange={this.props.handleHoverTrigger}
-        delay={this.props.delay}
         onMouseOver={this.handleMouseOver}
         onMouseOut={this.handleMouseOut}
         onFocus={this.empty}
@@ -49,5 +47,5 @@ HoverDelayTrigger.propTypes = {
 
 HoverDelayTrigger.defaultProps = {
   className: '',
-  children: null
+  children: <span></span>
 };
