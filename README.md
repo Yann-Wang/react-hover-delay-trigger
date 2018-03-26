@@ -1,44 +1,40 @@
 
-[![NPM](http://nodei.co/npm/params-verifier.png?downloads=true)](http://nodei.co/npm/params-verifier/)
+[![NPM](http://nodei.co/npm/react-hover-delay-trigger.png?downloads=true)](http://nodei.co/npm/params-verifier/)
 
-[![NPM version](https://img.shields.io/npm/v/params-verifier.svg)]()
+[![NPM version](https://img.shields.io/npm/v/react-hover-delay-trigger.svg)]()
 
-- params-verifier is a validator which can be used in controller of server or any other place.
+- react-hover-delay-trigger is a component of which the children component will delay to trigger callback when the hover action happens.
 
 
 ### install
 
 ```shell
-    npm install params-verifier --save
+    npm install react-hover-delay-trigger --save
 ```
 
 
 ### import
 - this package is developed by es6 syntax, so we recommend to load the package as follows:
 ```javascript
-    import Validator from 'params-verifier';
+    import ReactHoverDelayTrigger from 'react-hover-delay-trigger';
 ```
-or you can also load like this:
-```javascript
-    const Validator = require('params-verifier');
-```
+
 ### Demo
-
+- [example](https://github.com/Yann-Wang/react-hover-delay-trigger-example)
 ```javascript
-
+  <ReactHoverDelayTrigger
+    delay={1100}
+    handleHoverTrigger={this.handleHoverTrigger}
+  >
+    <span>677777</span>
+  </ReactHoverDelayTrigger>
 ```
 
-
-### introduction
-
-##### test
-- start unit test
-
+### Contributing
+- compile
 ```shell
-    npm test
+  npm run build
 ```
-
-- you can also test this node package in [es6 development environment](https://github.com/Yann-Wang/params-verifier-demo)
 
 ### License
 - ISC
